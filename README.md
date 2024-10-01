@@ -1,4 +1,5 @@
 # Experiment-15
+AIM : To study and implement Recursive Function 
 # Recursive Function 
 A recursive function is a function that calls itself in order to solve a problem. The function generally breaks the problem into smaller instances of the same problem, which it solves recursively until reaching a base case that stops the recursion.
 
@@ -125,3 +126,5 @@ int main() {
 }
 
 ```
+
+CONCLUSION : We have learned and Implemented how to use Recursive Function in C++.
