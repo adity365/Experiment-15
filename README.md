@@ -17,25 +17,33 @@ Experiment 15(a)
 // PRN --> 23070123162
 
 // code to find out factorial of a number 
-# include <iostream>
+#include <iostream>
 using namespace std;
 
-int fact(int n){
-    if(n<=1){// Terminating statement(base condition)
-    return 1;
-    }
-    else{
-        return (n*fact(n-1)); // Recursion
+int fact(int n) {
+    if (n <= 1) { // Base condition
+        return 1;
+    } else {
+        return (n * fact(n - 1)); // Recursive call
     }
 }
 
-int main(){
-
-    int X,n;
-    cout << "Enter a number : " << endl;
+int main() {
+    int n;
+    cout << "Enter a number: " << endl;
     cin >> n;
+
+    // Calling the fact function and printing the result
+    int result = fact(n);
+    cout << "Factorial of " << n << " is: " << result << endl;
+
+    return 0;
 }
+
 ```
+OUTPUT :
+![image](https://github.com/user-attachments/assets/b0ae3968-ce73-4016-a3c2-7fa2e2e1c54e)
+
 Experiment 15(b)
 ```
 // Name --> Aditya Agarwal
@@ -65,6 +73,9 @@ int main(){
 
 }
 ```
+OUTPUT :
+![image](https://github.com/user-attachments/assets/1491bd9d-ac49-4c2d-815b-01e2d9dff185)
+
 Experiment 15(c)
 ```
 // Name --> Aditya Agarwal
@@ -91,6 +102,9 @@ int main(){
     reverse(a); // Function Calling 
 }
 ```
+OUTPUT :
+![image](https://github.com/user-attachments/assets/fa9ed343-b434-498d-971a-44ec7f9ad807)
+
 Experiment 15(d)
 ```
 // Name --> Aditya Agarwal
@@ -126,5 +140,7 @@ int main() {
 }
 
 ```
+OUTPUT :
+![image](https://github.com/user-attachments/assets/c4cd0b26-7183-4081-8cda-b59905ba893c)
 
 CONCLUSION : We have learned and Implemented how to use Recursive Function in C++.
